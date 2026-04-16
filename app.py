@@ -32,7 +32,7 @@ def filter_location(location):
 
 
 st.markdown('<div class="hero-title">Career Level<br>Predictor</div>', unsafe_allow_html=True)
-st.markdown('<div class="hero-sub">Nhập thông tin công việc để dự đoán cấp bậc phù hợp.</div>', unsafe_allow_html=True)
+st.markdown('<div class="hero-sub">Nhập thông tin công việc để dự đoán cấp bậc phù hợp (Bằng tiếng Anh) </div>', unsafe_allow_html=True)
 st.markdown('<hr class="thin-divider">', unsafe_allow_html=True)
 
 with st.form("prediction_form"):
