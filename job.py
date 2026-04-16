@@ -11,6 +11,7 @@ from sklearn.metrics import classification_report
 from sklearn.feature_selection import SelectKBest, chi2, SelectPercentile
 from sklearn.model_selection import GridSearchCV
 from imblearn.over_sampling import RandomOverSampler, SMOTEN
+import joblib
 
 def filter_location(location):
     result = re.findall("\,\s[A-Z]{2}$", location)
@@ -61,7 +62,12 @@ params = {
     "model__criterion": ["gini", "entropy", "log_loss"],
     "feature_selector__percentile": [1, 5, 10]
 }
+
+
 grid_search = GridSearchCV(estimator=cls, param_grid=params, cv=4, scoring="recall_weighted", verbose=2)
 grid_search.fit(x_train, y_train)
 y_predicted = grid_search.predict(x_test)
 print(classification_report(y_test, y_predicted))
+
+joblib.dump(grid_search.best_estimator_, 'job_model.pkl')
+print("Da luu mo minh vao file 'job_model.pkl'")

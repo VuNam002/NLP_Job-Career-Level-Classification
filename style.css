@@ -1,0 +1,113 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+.stApp {
+    background-color: #FAFAFA;
+}
+
+header[data-testid="stHeader"] {
+    background: transparent;
+}
+
+.block-container {
+    padding-top: 2.5rem;
+    max-width: 660px;
+}
+
+/* ── Header ── */
+.hero-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 0.25rem;
+    letter-spacing: -0.02em;
+}
+
+.hero-sub {
+    font-size: 0.875rem;
+    color: #888;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.thin-divider {
+    border: none;
+    border-top: 1px solid #E5E5E5;
+    margin: 1.5rem 0;
+}
+
+/* ── Labels ── */
+label[data-testid="stWidgetLabel"] p {
+    font-size: 0.8rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.02em !important;
+    color: #444 !important;
+    text-transform: none !important;
+}
+
+/* ── Inputs ── */
+input[data-testid="stTextInput"],
+textarea {
+    background-color: #FFF !important;
+    border: 1px solid #DDD !important;
+    border-radius: 8px !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 0.9rem !important;
+    color: #111 !important;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+input[data-testid="stTextInput"]:focus,
+textarea:focus {
+    border-color: #999 !important;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06) !important;
+    outline: none !important;
+}
+
+/* ── Submit button ── */
+.stFormSubmitButton button {
+    background-color: #111 !important;
+    color: #FFF !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 0.6rem 1.5rem !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    width: 100% !important;
+    margin-top: 0.75rem !important;
+    transition: opacity 0.15s ease !important;
+    cursor: pointer !important;
+}
+
+.stFormSubmitButton button:hover {
+    opacity: 0.75 !important;
+}
+
+/* ── Result box ── */
+.result-box {
+    background: #FFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-top: 1.25rem;
+}
+
+.result-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 0.3rem;
+}
+
+.result-value {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111;
+    letter-spacing: -0.01em;
+}
