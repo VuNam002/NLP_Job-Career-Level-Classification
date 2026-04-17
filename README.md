@@ -3,8 +3,8 @@
 Dự án này là một ứng dụng của Xử lý Ngôn ngữ Tự nhiên (NLP) và Machine Learning để phân loại cấp bậc nghề nghiệp (`career_level`) dựa trên thông tin mô tả công việc. 
 
 ## Video Demo
-<video src="demo/2026-04-17%2010-53-01.mp4" controls="controls" width="100%">
-  Trình duyệt của bạn không hỗ trợ thẻ video. Bạn có thể tải video xuống tại <a href="demo/2026-04-17%2010-53-01.mp4">đây</a>.
+<video src="demo/demo.mp4?raw=true" controls="controls" width="100%">
+  Trình duyệt của bạn không hỗ trợ thẻ video. Bạn có thể tải video xuống tại <a href="demo/demo.mp4?raw=true">đây</a>.
 </video>
 
 ##  Mô tả chung
