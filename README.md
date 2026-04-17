@@ -2,13 +2,16 @@
 
 Dự án này là một ứng dụng của Xử lý Ngôn ngữ Tự nhiên (NLP) và Machine Learning để phân loại cấp bậc nghề nghiệp (`career_level`) dựa trên thông tin mô tả công việc. 
 
+## Video Demo
+[![Video Demo](https://img.youtube.com/vi/L6ANXTB3IBA/0.jpg)](https://youtu.be/L6ANXTB3IBA)
+
 ##  Mô tả chung
 Mục tiêu của dự án là xây dựng một 파ypline dự đoán cấp bậc của một công việc (ví dụ: thực tập sinh, nhân viên, quản lý, v.v.) thông qua các thông tin văn bản như tiêu đề công việc, mô tả, ngành nghề, và vị trí địa lý.
 
 Dự án sử dụng thư viện **Scikit-Learn** cho quá trình trích xuất đặc trưng văn bản, lựa chọn đặc trưng và huấn luyện mô hình học máy.
 
 ## Cấu trúc dữ liệu
-*   **Dữ liệu đầu vào:** Tập dữ liệu dạng bảng tính `final_project.ods`.
+*   **Dữ liệu đầu vào:** Tập dữ liệu dạng bảng tính `final_project.ods`. (Link tải dữ liệu: [Google Drive](https://drive.google.com/file/d/1BZasDYJAucvcxFsiZ1zQRSp0IPjCuFhp/view?usp=sharing))
 *   **Nhãn mục tiêu (Target):** `career_level` - Cấp bậc nghề nghiệp của công việc.
 *   **Các đặc trưng (Features):**
     *   `title` (Tiêu đề công việc): Xử lý bằng TF-IDF.
