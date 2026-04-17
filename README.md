@@ -3,7 +3,9 @@
 Dự án này là một ứng dụng của Xử lý Ngôn ngữ Tự nhiên (NLP) và Machine Learning để phân loại cấp bậc nghề nghiệp (`career_level`) dựa trên thông tin mô tả công việc. 
 
 ## Video Demo
-[![Video Demo](https://img.youtube.com/vi/L6ANXTB3IBA/0.jpg)](https://youtu.be/L6ANXTB3IBA)
+<video src="demo/2026-04-17%2010-53-01.mp4" controls="controls" width="100%">
+  Trình duyệt của bạn không hỗ trợ thẻ video. Bạn có thể tải video xuống tại <a href="demo/2026-04-17%2010-53-01.mp4">đây</a>.
+</video>
 
 ##  Mô tả chung
 Mục tiêu của dự án là xây dựng một 파ypline dự đoán cấp bậc của một công việc (ví dụ: thực tập sinh, nhân viên, quản lý, v.v.) thông qua các thông tin văn bản như tiêu đề công việc, mô tả, ngành nghề, và vị trí địa lý.
